@@ -7,7 +7,7 @@ import fin from '../assets/fin.png'
 import sort from '../assets/sort.png'
 import lm from '../assets/lm.png'
 import sih from '../assets/sih.png'
-
+import sb from '../assets/image.png'
 
 const TOOLS = [
   'Postman', 'VS Code', 'Git','GitHub','Linux'
@@ -36,6 +36,14 @@ const DEV_SKILLS = [
 // ]
 
 const DEV_PROJECTS = [
+  {
+    title: 'SecondBrain',
+    description: "that yt video was soo cool and informative, i should save it in my notion doc....boring, save it here..please :-)",
+    githubLink: 'https://github.com/PrakharShukla-17/secondbrainC',
+    liveLink: 'https://secondbrain-c-xi.vercel.app/',
+    image: sb,
+    emoji: '🐸'
+  },
   {
     title: 'Finance Manager',
     description: "im a mess with money and wanted a way so that i can atleast have a gauge over my expenses, morover i wanted to make a react project, guess what, i combined both of them, its basic but be ready for advanced features and then ill release for all of you to use it",
